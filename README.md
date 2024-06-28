@@ -1,7 +1,5 @@
 # Cálculo de Partículas
 
-Antes mostra algumas informações do projeto
-
 > Status do projeto: Falta a simulação
 
 > Esse projeto nos foi proposto no 3ºSemestre na disciplina de Física Moderna
