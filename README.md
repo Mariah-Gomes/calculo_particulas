@@ -10,6 +10,8 @@
 
 🔹[Descrição do Projeto](#pencil-descrição-do-projeto)
 
+🔹[Sugestão de Valores](#triangular_ruler-descrição-do-projeto)
+
 🔹[Funcionalidade](#mag_right-funcionalidade)
 
 🔹[Tecnologias Utilizadas](#computer-tecnologias-utilizadas)
@@ -19,14 +21,14 @@
 ## :pencil: Descrição do Projeto
 Nesse projeto nos foi proposto fazer cálculos de uma partícula tanto que esteja confinada em um poço de potencial unidimensional ou sua função de onda. A partícula pode ser tanto elétron como próton, assim que selecionar as opções ele pede alguns dados e mostra os cálculos. Nosso desafio nesse projeto foi fazer tudo isso com uma interface gráfica que escolhemos o GUI.
 
-## Sugestão de Valores
+## :triangular_ruler: Sugestão de Valores
 Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns valores:
 
-- $$l: 0.22 \times 10^{-9}$$
-- $$n_{i}: 2$$
-- $$n_{f}: 5$$
-- $$P_{i}: 0.11 \times 10^{-9}$$
-- $$P_{f}: 0.198 \times 10^{-9}$$
+- $$l = 0.22 \times 10^{-9}$$
+- $$n_{i} = 2$$
+- $$n_{f} = 5$$
+- $$P_{i} = 0.11 \times 10^{-9}$$
+- $$P_{f} = 0.198 \times 10^{-9}$$
 - #Esse Partícula É Um Elétron#  
 
 ## :mag_right: Funcionalidade
