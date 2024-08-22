@@ -19,6 +19,9 @@
 ## :pencil: Descrição do Projeto
 Nesse projeto nos foi proposto fazer cálculos de uma partícula tanto que esteja confinada em um poço de potencial unidimensional ou sua função de onda. A partícula pode ser tanto elétron como próton, assim que selecionar as opções ele pede alguns dados e mostra os cálculos. Nosso desafio nesse projeto foi fazer tudo isso com uma interface gráfica que escolhemos o GUI.
 
+## Sugestão de Valores
+Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns valores:
+- l: (6.62607015 \times 10^{-34}\)
 ## :mag_right: Funcionalidade
 Aqui mostra as funcionalidades do projeto em tópicos (de numeração e com a foto)
 
