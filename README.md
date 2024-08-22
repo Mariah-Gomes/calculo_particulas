@@ -10,7 +10,7 @@
 
 🔹[Descrição do Projeto](#pencil-descrição-do-projeto)
 
-🔹[Sugestão de Valores](#triangular_ruler-descrição-do-projeto)
+🔹[Sugestão de Valores](#triangular_ruler-sugestão-de-valores)
 
 🔹[Funcionalidade](#mag_right-funcionalidade)
 
