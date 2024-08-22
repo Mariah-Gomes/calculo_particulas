@@ -23,7 +23,7 @@ Nesse projeto nos foi proposto fazer cálculos de uma partícula tanto que estej
 Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns valores:
 
 - l: $$0.22 \times 10^{-9}$$
-- n_{i}: 2
+- n(U+1D62): 2
 - n_f: 5
 - P_i: $$0.11 \times 10^{-9}$$
 - P_f: $$0.198 \times 10^{-9}$$
