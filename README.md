@@ -22,11 +22,11 @@ Nesse projeto nos foi proposto fazer cálculos de uma partícula tanto que estej
 ## Sugestão de Valores
 Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns valores:
 
-- l: $$0.22 \times 10^{-9}$$
-- nᵢ: 2
+- $$l: 0.22 \times 10^{-9}$$
+- $$n_{i}: 2$$
 - $$n_{f}: 5$$
-- Pᵢ: $$0.11 \times 10^{-9}$$
-- P_f: $$0.198 \times 10^{-9}$$
+- $$P_{i}: 0.11 \times 10^{-9}$$
+- $$P_{f}: 0.198 \times 10^{-9}$$
 - #Esse Partícula É Um Elétron#  
 
 ## :mag_right: Funcionalidade
