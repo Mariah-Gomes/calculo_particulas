@@ -21,9 +21,13 @@ Nesse projeto nos foi proposto fazer cálculos de uma partícula tanto que estej
 
 ## Sugestão de Valores
 Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns valores:
-testes
-- l: $$6.62607015 \times 10^{-34}$$
-  
+
+- l: $$0.22 \times 10^{-9}$$
+- n_i: 2
+- n_f: 5
+- P_i: $$0.11 \times 10^{-9}$$
+- P_f: $$0.198 \times 10^{-9}$$
+- #Esse Partícula É Um Elétron#  
 
 ## :mag_right: Funcionalidade
 Aqui mostra as funcionalidades do projeto em tópicos (de numeração e com a foto)
