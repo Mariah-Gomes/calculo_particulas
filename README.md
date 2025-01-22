@@ -34,20 +34,23 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 
 ## :mag_right: Funcionalidade
 1. Quando inicializamos a aplicação abre a seguinte tela:
+
    ![image](https://github.com/user-attachments/assets/bc430461-3e03-4f59-b3ce-d64ca89cc26c)
 
 2. Selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional):
+
   ![image](https://github.com/user-attachments/assets/ab0fc759-c53c-4d3f-8cb2-ec949c0f92c9)
 
 3. Selecionamos depois qual tipo de partícula está confinada no poço:
+
   ![image](https://github.com/user-attachments/assets/1566cc89-f8e6-4025-bccf-910c91588cd5)
 
 
-4. a
-5. a
-6. a
 7. a
 8. a
+9. a
+10. a
+11. a
 
 ## :computer: Tecnologias Utilizadas
 - Utilizamos a linguagem Python
