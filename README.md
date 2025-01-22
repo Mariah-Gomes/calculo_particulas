@@ -33,24 +33,45 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 **Esse Partícula É Um Elétron**  
 
 ## :mag_right: Funcionalidade
-1. Quando inicializamos a aplicação abre a seguinte tela:
+1. Quando inicializamos a aplicação abre a seguinte tela e selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional):
 
    ![image](https://github.com/user-attachments/assets/bc430461-3e03-4f59-b3ce-d64ca89cc26c)
 
-2. Selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional):
+2. Selecionamos depois qual tipo de partícula está confinada no poço:
 
   ![image](https://github.com/user-attachments/assets/ab0fc759-c53c-4d3f-8cb2-ec949c0f92c9)
 
-3. Selecionamos depois qual tipo de partícula está confinada no poço:
+3. Inserimos os valores e em seguida apertamos para calcular (o programa roda melhor quando colocamos os valores sugeridos que está em uma seção antes das funcionalidades):
 
   ![image](https://github.com/user-attachments/assets/1566cc89-f8e6-4025-bccf-910c91588cd5)
 
+## AS PRÓXIMAS TELAS SÃO UMA SEQUÊNCIA DE VÁRIAS CONTAS DOS VALORES INSERIDOS ##
 
-7. a
-8. a
+4. Cálculo de: Função da onda quântica no SI dos dois níveis
+
+  ![image](https://github.com/user-attachments/assets/815f77f6-aca6-441a-aafd-53746556b801)
+
+5. Cálculo de: Energia do nível quântico inicial (Ei) e final (Ef)
+
+![image](https://github.com/user-attachments/assets/375bea62-b7bc-4ed9-80c5-951ba80d03fa)
+
+6. Cálculo de: Fóton absorvido ou emitido pela partícula na transição entre os níveis
+
+![image](https://github.com/user-attachments/assets/67159cab-4547-4134-9026-86df567a8296)
+
+7. Cálculo de: Velocidade (v) da partícula no nível quântico inicial e final
+
+![image](https://github.com/user-attachments/assets/72cf62ae-668c-4bf7-8bb9-0cf115b1df70)
+
+8. Cálculo de: Comprimento da onda de Broglie
+
+![image](https://github.com/user-attachments/assets/53f957e8-b676-482a-ab3c-ff7502decc36)
+
 9. a
 10. a
 11. a
+12. a
+13. a
 
 ## :computer: Tecnologias Utilizadas
 - Utilizamos a linguagem Python
