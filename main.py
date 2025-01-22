@@ -585,6 +585,12 @@ def entradas_tema1_eletron():
 
                         x_atual = 0
                         y_atual = 0
+                        
+                        # Variáveis de controle
+                        mostrar_onda = True  # Controla a exibição da onda 4
+                        mostrar_circulo = True  # Controla a exibição do círculo
+                        mostrar_onda5 = False  # Controla a exibição da onda 5
+                        
                         # Loop principal
                         while True:
                             for event in pygame.event.get():    
@@ -665,62 +671,61 @@ def entradas_tema1_eletron():
                             pygame.draw.line(screen, BLACK, (200, 200), (500, 200), 1)
                                 
                             # Desenhando as ondas de níveis
-                            
-                            # Onda 1 e sua reversa, com base na variável onda_atual
-                            if onda_atual == 1:
-                                # Exibir a onda normal (concavidade para baixo)
-                                for (x1, y1) in onda1:
-                                    pygame.draw.circle(screen, RED, (int(x1), int(y1)), 1)
-                            else:
-                                # Exibir a onda reversa (concavidade para cima)
-                                for (x1Reverso, y1Reverso) in onda1Reverso:
-                                    pygame.draw.circle(screen, RED, (int(x1Reverso), int(y1Reverso)), 1)
+                            #if onda_atual == 1: # Onda 1 e sua reversa, com base na variável onda_atual
+                                
+                                #for (x1, y1) in onda1: # Exibir a onda normal (concavidade para baixo)
+                                    #pygame.draw.circle(screen, RED, (int(x1), int(y1)), 1)
+                            #else:
+                                #for (x1Reverso, y1Reverso) in onda1Reverso: # Exibir a onda reversa (concavidade para cima)
+                                    #pygame.draw.circle(screen, RED, (int(x1Reverso), int(y1Reverso)), 1)
 
-                            # Onda 2 e sua reversa, com base na variável onda_atual
-                            if onda_atual == 1:
-                                for (x2, y2) in onda2:
-                                    pygame.draw.circle(screen, RED, (int(x2), int(y2)), 1)
-                            else:
-                                for (x2Reverso, y2Reverso) in onda2Reverso:
-                                    pygame.draw.circle(screen, RED, (int(x2Reverso), int(y2Reverso)), 1)
+                            #if onda_atual == 1: # Onda 2 e sua reversa, com base na variável onda_atual
+                                #for (x2, y2) in onda2:
+                                    #pygame.draw.circle(screen, RED, (int(x2), int(y2)), 1)
+                            #else:
+                                #for (x2Reverso, y2Reverso) in onda2Reverso:
+                                    #pygame.draw.circle(screen, RED, (int(x2Reverso), int(y2Reverso)), 1)
                             
-                            # Onda 3 e sua reversa, com base na variável onda_atual
-                            if onda_atual == 1:
-                                for (x3, y3) in onda3:
-                                    pygame.draw.circle(screen, RED, (int(x3), int(y3)), 1)
-                            else:
-                                for (x3Reverso, y3Reverso) in onda3Reverso:
-                                    pygame.draw.circle(screen, RED, (int(x3Reverso), int(y3Reverso)), 1)
+                            #if onda_atual == 1: # Onda 3 e sua reversa, com base na variável onda_atual
+                                #for (x3, y3) in onda3:
+                                    #pygame.draw.circle(screen, RED, (int(x3), int(y3)), 1)
+                            #else:
+                                #for (x3Reverso, y3Reverso) in onda3Reverso:
+                                    #pygame.draw.circle(screen, RED, (int(x3Reverso), int(y3Reverso)), 1)
 
                             # Onda 4 e sua reversa, com base na variável onda_atual
-                            if onda_atual == 1:
-                                for (x4, y4) in onda4:
-                                    pygame.draw.circle(screen, RED, (int(x4), int(y4)), 1)
-                            else:
-                                for (x4Reverso, y4Reverso) in onda4Reverso:
-                                    pygame.draw.circle(screen, RED, (int(x4Reverso), int(y4Reverso)), 1)
+                            if mostrar_onda:
+                                if onda_atual == 1:
+                                    for (x4, y4) in onda4:
+                                        pygame.draw.circle(screen, RED, (int(x4), int(y4)), 1)
+                                else:
+                                    for (x4Reverso, y4Reverso) in onda4Reverso:
+                                        pygame.draw.circle(screen, RED, (int(x4Reverso), int(y4Reverso)), 1)
 
-                            # Onda 5 e sua reversa, com base na variável onda_atual
-                            if onda_atual == 1:
-                                for (x5, y5) in onda5:
-                                    pygame.draw.circle(screen, RED, (int(x5), int(y5)), 1)
-                            else:
-                                for (x5Reverso, y5Reverso) in onda5Reverso:
-                                    pygame.draw.circle(screen, RED, (int(x5Reverso), int(y5Reverso)), 1)
-
+                            # Desenhar o círculo
                             x_atual += unit_x * velocidade
                             y_atual += unit_y * velocidade
 
-                            # Parte 6: Verifique se o ponto final foi alcançado
+                            # Verifique se o ponto final foi alcançado
                             if abs(x_atual - x_final) < velocidade and abs(y_atual - y_final) < velocidade:
                                 x_atual = x_final
                                 y_atual = y_final
-                                # Se desejar, pare o loop ou mude a lógica após alcançar o ponto final
-                                # running = False
+                                mostrar_circulo = False  # Faz o círculo desaparecer
+                                mostrar_onda = False     # Onda 4 desaparece
+                                mostrar_onda5 = True     # Ativa a exibição da onda 5
 
-                            # Parte 7: Desenhe o círculo na nova posição
-                            
-                            pygame.draw.circle(screen, BLUE, (int(x_atual), int(y_atual)), 10)
+                            # Desenhe o círculo se ele ainda deve aparecer
+                            if mostrar_circulo:
+                                pygame.draw.circle(screen, BLUE, (int(x_atual), int(y_atual)), 10)
+
+                            # Onda 5 e sua reversa, com base na variável onda_atual
+                            if not mostrar_circulo and mostrar_onda5:  # Onda 5 aparece quando o círculo desaparece
+                                if onda_atual == 1:
+                                    for (x5, y5) in onda5:
+                                        pygame.draw.circle(screen, RED, (int(x5), int(y5)), 1)
+                                else:
+                                    for (x5Reverso, y5Reverso) in onda5Reverso:
+                                        pygame.draw.circle(screen, RED, (int(x5Reverso), int(y5Reverso)), 1)
                             
                             # Atualizar a exibição
                             pygame.display.flip()
