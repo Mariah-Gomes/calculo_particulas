@@ -67,11 +67,33 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 
 ![image](https://github.com/user-attachments/assets/53f957e8-b676-482a-ab3c-ff7502decc36)
 
-9. a
-10. a
-11. a
-12. a
-13. a
+9. Inserir os dados para o cálculo da probabilidade de encontrar a partícula (detalhe, os cálculos foram realizados com integral)
+
+![image](https://github.com/user-attachments/assets/0ade46a1-ade5-4c48-bd6a-87c1bf8a287f)
+
+10. Resultado do cálculo do tópico 9
+
+![image](https://github.com/user-attachments/assets/48f83867-ffe6-49ab-9125-915f7e517cd6)
+
+11. Gráfico 1
+
+![image](https://github.com/user-attachments/assets/56fca4b2-f3aa-4d28-9911-ae45bd955fa7)
+
+12. Gráfico 2
+
+![image](https://github.com/user-attachments/assets/12f82087-769f-4160-a92b-328cec165309)
+
+13. Gráfico 3
+
+![image](https://github.com/user-attachments/assets/b80a93c7-ec9f-4e55-829f-89b5b43f6911)
+
+14. Gráfico 4
+
+![image](https://github.com/user-attachments/assets/2e192e29-9806-4ad7-aab9-8768d59f4625)
+
+15. Simulação
+
+![image](https://github.com/user-attachments/assets/51661d88-c7c9-4bf8-aba9-b1f561844947)
 
 ## :computer: Tecnologias Utilizadas
 - Utilizamos a linguagem Python
