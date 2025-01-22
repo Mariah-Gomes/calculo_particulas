@@ -1,6 +1,6 @@
 # Cálculo de Partículas
 
-> Status do projeto: Falta a simulação
+> Status do projeto: Finalizado
 
 > Esse projeto nos foi proposto no 3ºSemestre na disciplina de Física Moderna
 
