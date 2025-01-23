@@ -85,18 +85,27 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 
 9. Inserir os dados para o cálculo da probabilidade de encontrar a partícula (detalhe, os cálculos foram realizados com integral)
 <br>
+
 <div align="center">
    <img width=300 height=330 src="https://github.com/user-attachments/assets/0ade46a1-ade5-4c48-bd6a-87c1bf8a287f"/>
 </div>
+
 <br>
+
 10. Resultado do cálculo do tópico 9
+
 <br>
+
 <div align="center">
    <img width=300 height=330 src="https://github.com/user-attachments/assets/48f83867-ffe6-49ab-9125-915f7e517cd6"/>
 </div>
+
 <br>
+
 **NAS PRÓXIMAS TELAS COMEÇAM OS GRÁFICOS E A SIMULAÇÃO. VOCÊ TEM QUE IR CLICANDO NOS BOTÕES PARA MUDAR DE GRÁFICOS**
+
 <br>
+
 11. Gráfico 1: 
 
 ![image](https://github.com/user-attachments/assets/56fca4b2-f3aa-4d28-9911-ae45bd955fa7)
