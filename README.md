@@ -36,7 +36,7 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 1. Quando inicializamos a aplicação abre a seguinte tela e selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional):
 
 <div align="center">
-   <img width=250 height=300 src="https://github.com/user-attachments/assets/bc430461-3e03-4f59-b3ce-d64ca89cc26c"/>
+   <img width=300 height=350 src="https://github.com/user-attachments/assets/bc430461-3e03-4f59-b3ce-d64ca89cc26c"/>
 </div>
 
 2. Selecionamos depois qual tipo de partícula está confinada no poço:
