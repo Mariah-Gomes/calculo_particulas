@@ -33,49 +33,67 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 **Esse Partícula É Um Elétron**  
 
 ## :mag_right: Funcionalidade
-1. Quando inicializamos a aplicação abre a seguinte tela e selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional):
+1. Quando inicializamos a aplicação abre a seguinte tela e selecionamos a opção desejada (aqui vou mostrar apenas com poço de potencial unidimensional).
 
 <div align="center">
    <img width=300 height=330 src="https://github.com/user-attachments/assets/bc430461-3e03-4f59-b3ce-d64ca89cc26c"/>
 </div>
 
-2. Selecionamos depois qual tipo de partícula está confinada no poço:
+2. Selecionamos depois qual tipo de partícula está confinada no poço.
 
-  ![image](https://github.com/user-attachments/assets/ab0fc759-c53c-4d3f-8cb2-ec949c0f92c9)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/ab0fc759-c53c-4d3f-8cb2-ec949c0f92c9"/>
+</div>
 
-3. Inserimos os valores e em seguida apertamos para calcular (o programa roda melhor quando colocamos os valores sugeridos que está em uma seção antes das funcionalidades):
+3. Inserimos os valores e em seguida apertamos para calcular (o programa roda melhor quando colocamos os valores sugeridos que está em uma seção antes das funcionalidades).
 
-  ![image](https://github.com/user-attachments/assets/1566cc89-f8e6-4025-bccf-910c91588cd5)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/1566cc89-f8e6-4025-bccf-910c91588cd5"/>
+</div>
 
-## AS PRÓXIMAS TELAS SÃO UMA SEQUÊNCIA DE VÁRIAS CONTAS DOS VALORES INSERIDOS ##
+**AS PRÓXIMAS TELAS SÃO UMA SEQUÊNCIA DE VÁRIAS CONTAS DOS VALORES INSERIDOS**
 
-4. Cálculo de: Função da onda quântica no SI dos dois níveis
+4. Cálculo de: Função da onda quântica no SI dos dois níveis.
 
-  ![image](https://github.com/user-attachments/assets/815f77f6-aca6-441a-aafd-53746556b801)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/815f77f6-aca6-441a-aafd-53746556b801"/>
+</div>
 
-5. Cálculo de: Energia do nível quântico inicial (Ei) e final (Ef)
+5. Cálculo de: Energia do nível quântico inicial (Ei) e final (Ef).
 
-![image](https://github.com/user-attachments/assets/375bea62-b7bc-4ed9-80c5-951ba80d03fa)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/375bea62-b7bc-4ed9-80c5-951ba80d03fa"/>
+</div>
 
-6. Cálculo de: Fóton absorvido ou emitido pela partícula na transição entre os níveis
+6. Cálculo de: Fóton absorvido ou emitido pela partícula na transição entre os níveis.
 
-![image](https://github.com/user-attachments/assets/67159cab-4547-4134-9026-86df567a8296)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/67159cab-4547-4134-9026-86df567a8296"/>
+</div>
 
-7. Cálculo de: Velocidade (v) da partícula no nível quântico inicial e final
+7. Cálculo de: Velocidade (v) da partícula no nível quântico inicial e final.
 
-![image](https://github.com/user-attachments/assets/72cf62ae-668c-4bf7-8bb9-0cf115b1df70)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/72cf62ae-668c-4bf7-8bb9-0cf115b1df70"/>
+</div>
 
-8. Cálculo de: Comprimento da onda de Broglie
+8. Cálculo de: Comprimento da onda de Broglie.
 
-![image](https://github.com/user-attachments/assets/53f957e8-b676-482a-ab3c-ff7502decc36)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/53f957e8-b676-482a-ab3c-ff7502decc36"/>
+</div>
 
 9. Inserir os dados para o cálculo da probabilidade de encontrar a partícula (detalhe, os cálculos foram realizados com integral)
 
-![image](https://github.com/user-attachments/assets/0ade46a1-ade5-4c48-bd6a-87c1bf8a287f)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/0ade46a1-ade5-4c48-bd6a-87c1bf8a287f"/>
+</div>
 
 10. Resultado do cálculo do tópico 9
 
-![image](https://github.com/user-attachments/assets/48f83867-ffe6-49ab-9125-915f7e517cd6)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/48f83867-ffe6-49ab-9125-915f7e517cd6"/>
+</div>
 
 11. Gráfico 1
 
@@ -93,9 +111,11 @@ Como esse projeto possui muitos cálculos matemáticos, nos sugerimos alguns val
 
 ![image](https://github.com/user-attachments/assets/2e192e29-9806-4ad7-aab9-8768d59f4625)
 
-15. Simulação
+15. Ao clicar no botão simulação mostra uma simulação de como acontece no poço unidimensional com uma partícula, onde essa partícula é o círculo azul
 
-![image](https://github.com/user-attachments/assets/51661d88-c7c9-4bf8-aba9-b1f561844947)
+<div align="center">
+   <img width=300 height=330 src="https://github.com/user-attachments/assets/51661d88-c7c9-4bf8-aba9-b1f561844947"/>
+</div>
 
 ## :computer: Tecnologias Utilizadas
 - Utilizamos a linguagem Python
